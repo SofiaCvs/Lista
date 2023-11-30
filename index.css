@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Roboto:wght@400;700&family=Sancreek&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background: #383f37;
+  color: #fc76ab;
+  font-family: 'Balsamiq Sans', sans-serif;
+  
+}
+:root {
+  margin: 0 24px;
+  position: relative;
+  min-width: 320px;
+  min-height: 100vh;
+}

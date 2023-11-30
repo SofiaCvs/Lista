@@ -1,0 +1,68 @@
+form {
+    width: 90%;
+    max-width: 300px;
+    background-color: #f9fbfc;
+    padding: 33px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    text-align: center;
+    font-weight: bold,
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+textarea {
+    background-color: #fff;
+    border-radius: 2px  solid #dcf1fc;
+    box-shadow: 0px 5px 5px rgba(253, 255, 221, 0.25);
+    color: 1e1e1f;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    height: 96px;
+    width: calc(100% - 25px);
+}
+
+textarea::placeholder {
+    color: #abaf9b;
+    font-family: 'Roboto';
+}
+
+textarea:focus {
+    outline-color: #e7ecbb;
+}
+
+.TaskForm-buttonContainer {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.TodoForm-button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: #dadada;
+    font-weight: 400;
+    width: 120px;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.TaskForm-button--add {
+    background: #fc76ab;
+    box-shadow: 0px 2px 5px rgba(255, 120, 176, 0.5);
+}
+
+.TaskForm-button--cancel {
+    background: transparent;
+}
