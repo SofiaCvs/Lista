@@ -1,0 +1,13 @@
+.TaskCounter {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: normal;
+    font-family: 'Sancreek', serif;
+    color: #f4ff9f;
+}
+
+.TaskCounter span {
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.TaskSearch {
+    background: #Fff;
+    border: 5px solid #e7ecbb;
+    margin: 0 24px;
+    height: 34px;
+    width: calc(100% - 62px);
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #c8c8c8;
+    box-shadow: 0px 1px 2px #242F22;
+  }
+
+  .TaskSearch::placeholder {
+    color: #abaf9b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+
+  .TaskSearch:focus {
+    outline-color: #fc76ab;
+    border: 5px;
+  }

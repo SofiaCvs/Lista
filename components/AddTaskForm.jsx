@@ -1,7 +1,8 @@
-import './TaskForm.css'
+import '/src/styles/TaskForm.css'
 
-function TaskForm() {
-  return (<form >
+export const AddTaskForm = () => {
+  return (
+    <form >
     <label>Añade un nueva tarea</label>
     <textarea placeholder='Nueva tarea'
     />
@@ -13,6 +14,5 @@ function TaskForm() {
         Añadir
       </button></div>
   </form>);
-}
 
-export { TaskForm };
+}
